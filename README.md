@@ -1,8 +1,8 @@
 # Deep Learning/Machine Learning Environment Installer for M1 (arm64) Mac 
 
 ### Run following command from terminal: 
-`curl (this repo)
-zsh MacOSX_arm64_DS_python.sh`
+`curl -fsSLo MacOSX_arm64_DS_python.sh https://github.com/trevorwitter/arm64_conda_installers/blob/master/MacOSX_arm64_DS_python.sh`
+`zsh MacOSX_arm64_DS_python.sh`
 
 Installs:
 - Mambaforge
