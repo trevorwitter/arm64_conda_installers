@@ -15,9 +15,10 @@ Installs:
 - XGBoost
 - Pytorch
 
+
 ## Resources
 #### Mambaforge Conda
-[coiled.io blog on mambaforge on M1 Mac](https://coiled.io/blog/apple-arm64-mambaforge/) 
+- coiled.io blog on [mambaforge on M1 Mac](https://coiled.io/blog/apple-arm64-mambaforge/) 
 
 #### Scikit-Learn
-[Stackoverflow post on sklearn for M1 silicon](https://stackoverflow.com/questions/68620927/installing-scipy-and-scikit-learn-on-apple-m1)
+- Stackoverflow post on [sklearn for M1 silicon](https://stackoverflow.com/questions/68620927/installing-scipy-and-scikit-learn-on-apple-m1)
