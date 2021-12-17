@@ -10,11 +10,14 @@ Installs:
 - Mambaforge
 - Jupyter Lab
 - Numpy
+- scipy
 - Pandas
 - skikit-learn
 - XGBoost
 - Pytorch
-
+- matplotlib
+- seaborn
+- bokeh
 
 ## Resources
 #### Mambaforge Conda
