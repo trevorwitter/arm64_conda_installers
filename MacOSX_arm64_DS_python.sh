@@ -34,6 +34,10 @@ pip install xgboost
 # install Pandas
 conda install pandas
 
+# install matplotlib, bokeh
+conda install -c conda-forge matplotlib
+conda install -c conda-forge bokeh
+conda install -c conda-forge seaborn 
 
 # Remove Mambaforge installer
 rm Mambaforge-MacOSX-arm64.sh
