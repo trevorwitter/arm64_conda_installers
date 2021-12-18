@@ -12,7 +12,7 @@ conda init zsh
 
 # install pytorch (currently only CPU support for M1 chip)
 conda install pytorch torchvision -c pytorch
-
+pip install torchtext
 
 # install sklearn
 brew install openblas
@@ -38,6 +38,15 @@ conda install pandas
 conda install -c conda-forge matplotlib
 conda install -c conda-forge bokeh
 conda install -c conda-forge seaborn 
+
+
+# Install TensorFlow and dependencies
+conda install -c apple tensorflow-deps
+python -m pip install tensorflow-macos
+python -m pip install tensorflow-metal
+
+# Install Transformers
+conda install -c huggingface transformers -y
 
 # Remove Mambaforge installer
 rm Mambaforge-MacOSX-arm64.sh
