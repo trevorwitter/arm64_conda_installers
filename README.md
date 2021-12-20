@@ -18,7 +18,7 @@ Installs:
 
 Run following commands from terminal: 
 ```bash
-curl -fsSLo MacOSX_arm64_DS_python.sh https://github.com/trevorwitter/arm64_conda_installers/blob/master/MacOSX_arm64_DS_python.sh
+curl -fsSLo Mambaforge-MacOSX-arm64.sh https://raw.githubusercontent.com/trevorwitter/arm64_conda_installers/master/MacOSX_arm64_DS_python.sh
 zsh MacOSX_arm64_DS_python.sh
 ```
 
