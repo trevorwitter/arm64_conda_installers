@@ -2,5 +2,4 @@ notes/*
 data/*
 *.docx
 *.swp
-
-
+.DS_Store
