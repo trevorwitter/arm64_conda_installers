@@ -1,30 +1,32 @@
-# Deep Learning/Machine Learning Environment Installer for M1 (arm64) Mac 
+# Python Data Science Environment Installer for M1 (arm64) Mac OSX
+The current Mac OSX x86 Anaconda distribution will run just fine on M1 chip but code needs to be translated from x86 to arm64 via Rosetta2. This is the easiest option for installation but comes with ~20% performance hit. You can install both the x86 Anaconda x86 distribution and Mambaforge arm64 distribution on the same machine and switch between environments without any issues. 
 
-Installs:
+The following installs Mambaforge arm64 and these packages to run directly on the arm64 chip:
 - Mambaforge
 - Jupyter Lab
 - Numpy
-- scipy
+- SciPy
 - Pandas
 - skikit-learn
 - XGBoost
-- Pytorch
-- matplotlib
-- seaborn
-- bokeh
+- PyTorch
+- Matplotlib
+- Seaborn
+- Bokeh
 
-## Installation Options:
+# Installation Options:
 ### Option 1:
+---
 
 Run following commands from terminal: 
 ```bash
 curl -fsSLo Mambaforge-MacOSX-arm64.sh https://raw.githubusercontent.com/trevorwitter/arm64_conda_installers/master/MacOSX_arm64_DS_python.sh
 zsh MacOSX_arm64_DS_python.sh
 ```
-
+- This bash script runs everything in **Option 2** below to install Mambaforge and all packages listed above
 
 ### Option 2:
-
+---
 Copy paste each of these commands into terminal:
 
 #### Install Mambaforge
@@ -102,7 +104,7 @@ mamba activate /Users/{your_username}/mambaforge
 ```
 
 #### Create Clone Environment  
-Good practice to keep your base environment clean and running. Any changes you make to your new environment (and subsequent dependency issues) will not affect your base environment.
+- Good practice to keep your base environment clean and running. Any changes you make to your new environment (and subsequent dependency issues) will not affect your base environment.
 ```bash
 mamba create --name myenv --clone base
 ```
@@ -112,7 +114,7 @@ mamba create --name myenv --clone base
 mamba activate /Users/{your_username}/mambaforge/envs/myenv
 ```
 
-## Resources
+# Resources
 
 #### Anaconda Blog Post
 - [A Python Data Scientist’s Guide to the Apple Silicon Transition](https://www.anaconda.com/blog/apple-silicon-transition)
