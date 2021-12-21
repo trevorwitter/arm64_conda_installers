@@ -114,6 +114,11 @@ mamba create --name myenv --clone base
 mamba activate /Users/{your_username}/mambaforge/envs/myenv
 ```
 
+#### Switch to x86 Anaconda Environment (if you also have anaconda x86 distribution installed)
+```bash
+conda activate /Users/{your_username}/anaconda3/envs/myx86env
+```
+
 # Resources
 
 #### Anaconda Blog Post
