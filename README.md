@@ -2,7 +2,6 @@
 The current Mac OSX x86 Anaconda distribution will run just fine on M1 chip but code needs to be translated from x86 to arm64 via Rosetta2. This is the easiest option for installation but comes with ~20% performance hit. You can install both the x86 Anaconda x86 distribution and Mambaforge arm64 distribution on the same machine and switch between environments without any issues. 
 
 The following installs Mambaforge arm64 and these packages to run directly on the arm64 chip:
-- Mambaforge
 - Jupyter Lab
 - Numpy
 - SciPy
