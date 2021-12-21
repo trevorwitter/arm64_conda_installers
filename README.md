@@ -9,6 +9,8 @@ The following installs Mambaforge arm64 and these packages to run directly on th
 - skikit-learn
 - XGBoost
 - PyTorch
+- Tensorflow
+- Transformers
 - Matplotlib
 - Seaborn
 - Bokeh
